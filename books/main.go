@@ -23,7 +23,7 @@ func init() {
 }
 
 func main() {
-	log.Print("Starting grocery service...")
+	log.Print("Starting book service...")
 	http.HandleFunc("/book", handler)
 	addr := fmt.Sprintf("%s:%d", host, port)
 	log.Printf("HTTP server up on %s", addr)

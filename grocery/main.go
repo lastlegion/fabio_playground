@@ -18,7 +18,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func init() {
 	flag.StringVar(&host, "host", "0.0.0.0", "binding host")
-	flag.IntVar(&port, "port", 8080, "binding port")
+	flag.IntVar(&port, "port", 8081, "binding port")
 	flag.Parse()
 }
 
